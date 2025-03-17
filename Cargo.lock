@@ -832,7 +832,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "shelf"
+name = "shelfit"
 version = "0.1.0"
 dependencies = [
  "arboard",

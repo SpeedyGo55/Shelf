@@ -7,7 +7,7 @@ mod clipboard;
 mod error;
 
 #[derive(Parser)]
-#[command(name = "shelf")]
+#[command(name = "shelfit")]
 #[command(about = "Local knowledge base for notes and snippets", long_about = None)]
 struct Cli {
     #[command(subcommand)]

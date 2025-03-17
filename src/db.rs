@@ -16,12 +16,12 @@ pub struct Note {
 }
 
 pub fn init_db() -> Result<Connection> {
-    let proj_dirs = ProjectDirs::from("", "", "shelf")
+    let proj_dirs = ProjectDirs::from("", "", "shelfit")
         .ok_or(ShelfError::ConfigError("Could not find project directory".into()))?;
     let db_dir = proj_dirs.config_dir();
     std::fs::create_dir_all(db_dir)?;
 
-    let db_path = db_dir.join("shelf.db");
+    let db_path = db_dir.join("shelfit.db");
     let conn = Connection::open(db_path)?;
 
     conn.execute(
