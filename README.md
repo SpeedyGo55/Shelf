@@ -5,16 +5,16 @@ A lightweight, fast command-line tool for storing and retrieving notes, links, a
 ## Installation
 
 ### Windows
-Because sqlite3.lib is included in the repository, you can install it with the following command:
+Because sqlite3.lib is included in the package, you can install it with the following command:
 ```bash
-cargo install --path .
+cargo install shelfit
 ```
 
 ### Linux
 You need to install the sqlite3 development library before installing the program:
 ```bash
 sudo apt install libsqlite3-dev
-cargo install --path .
+cargo install shelfit
 ```
 
 ## Build 
