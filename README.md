@@ -26,3 +26,38 @@ If you are on linux, you may need to install the sqlite3 development library fir
 ```bash
 sudo apt install libsqlite3-dev
 ```
+
+## Usage
+
+### Add a note
+```bash
+shelfit save "This is a note"
+```
+#### with a tag
+```bash
+shelfit save "This is a note" -t tag1
+```
+#### with a url
+```bash
+shelfit save "This is a note" https://example.com
+```
+
+### List all notes
+```bash
+shelfit list
+```
+
+### Search notes
+```bash
+shelfit search "query"
+```
+
+### Delete a note
+```bash
+shelfit delete 1
+```
+
+### Export notes
+```bash
+shelfit export /path/to/export.json
+```
