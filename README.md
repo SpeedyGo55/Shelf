@@ -11,7 +11,7 @@ cargo install shelfit
 ```
 
 ### Linux
-You need to install the sqlite3 development library before installing the program:
+You may need to install the sqlite3 development library before installing the program:
 ```bash
 sudo apt install libsqlite3-dev
 cargo install shelfit
@@ -22,4 +22,7 @@ To build the project, run the following command:
 ```bash
 cargo build
 ```
-If you are o
+If you are on linux, you may need to install the sqlite3 development library first:
+```bash
+sudo apt install libsqlite3-dev
+```
