@@ -6,7 +6,7 @@ authors = ["SpeedyGo55 <speedygo55@outlook.com>"]
 description = "A lightweight CLI tool for storing and retrieving notes, links, and code snippets."
 license = "MIT"
 repository = "https://github.com/speedygo55/shelf"
-homepage = "speedygo55.com"
+homepage = "https://speedygo55.com/"
 readme = "README.md"
 exclude = [
 ]
