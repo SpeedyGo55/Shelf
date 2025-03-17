@@ -8,6 +8,9 @@ license = "MIT"
 repository = "https://github.com/speedygo55/shelf"
 homepage = "speedygo55.com"
 readme = "README.md"
+exclude = [
+    "sqlite3.lib"
+]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
