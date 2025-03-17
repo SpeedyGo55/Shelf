@@ -9,7 +9,6 @@ repository = "https://github.com/speedygo55/shelf"
 homepage = "speedygo55.com"
 readme = "README.md"
 exclude = [
-    "sqlite3.lib"
 ]
 
 [dependencies]
